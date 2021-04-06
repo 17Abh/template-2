@@ -1,0 +1,401 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    -webkit-font-smoothing:antialiased;
+    font-family:apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width:100%;
+    padding:0 12%;
+}
+header{
+    background: white;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+}
+header .container div svg{
+    transform:rotate(90deg) scaleX(-1);
+    width:2rem;
+    height:2rem;
+    margin-right: 1rem;
+}
+header .container div img{
+    width: 60px;
+    height: 2rem;
+}
+section.first .first-wrapper{
+    display:flex;
+    width:100%;
+    
+}
+section.first .first-wrapper>div{
+    width: 50%;
+}
+section.first .first-wrapper>div img{
+    width:100%;
+    height:100%;
+}
+section.first .first-wrapper .first-card{
+    padding:1.5rem;
+    padding-right: 10rem;
+    padding-left:2.5rem;
+    background: #e9e7e7;
+    justify-content: center;
+}
+section.first .first-wrapper .first-card h2{
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin: 4rem 0 0 0;
+}
+section.first .first-wrapper .first-card h1{
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color:rgb(104, 103, 103);
+}
+section.first .first-wrapper .first-card p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:rgb(61, 60, 60);
+    margin-bottom:1.5rem;
+}
+section.first .first-wrapper .first-card button{
+    padding:1rem 2rem;
+    border:solid 1px darkgrey;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color:white;
+    background:rgb(104, 103, 103) ;
+    outline: none;
+}
+.second{
+    text-align: center;
+    padding: 2rem 12%;
+}
+.second h2{
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.second button{
+    padding:1rem 2rem;
+    border:solid 1px rgb(10, 10, 10);
+    letter-spacing: 5px;
+    font-weight: 500;
+    color:rgb(12, 12, 12);
+    background:rgb(252, 250, 250) ;
+    outline: none;
+}
+.second h1{
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color:rgb(104, 103, 103);
+}
+.second p{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(61, 60, 60);
+    margin-bottom:1.5rem;
+}
+.third .third-wrap{
+    width:100%;
+    display:flex;
+}
+.third .third-wrap > div{
+    width:33.33%;
+}
+.third .third-wrap > div>img{
+    width:100%;
+    height:100%;
+}
+.third .third-wrap .third-box > div{
+    height:50%;
+    padding:2rem;
+}
+.third .third-wrap .third-box .box31{
+    background:black;
+    color:rgb(231, 226, 226);
+    
+}
+.third .third-wrap .third-box .box31 h2{
+    font-size: 3rem;
+    font-weight: 500;
+    justify-content: center;
+}
+@media(max-width:1200px){
+    .third .third-wrap .third-box .box31 h2{
+        font-size: 2.2rem; 
+    }
+}
+.third .third-wrap .third-box .box32 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:rgb(61, 60, 60);
+}
+.fourth{
+    background:black;
+    color:white;
+}
+.fourth .container .fourth-wrap{
+    
+    width:110%;
+    
+    margin-right: -3rem;
+    
+}
+.fourth .container .fourth-wrap .fourth-card{
+    
+    padding:1rem 2rem 2rem 0;
+    width:31%;
+    display: inline-flex;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+}
+.fourth .container .fourth-wrap .fourth-card svg {
+    height:4rem;
+    width:3rem;
+    fill:white;
+    margin-right: 16px;;
+}
+.fourth .container .fourth-wrap .fourth-card h1{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.fourth .container .fourth-wrap .fourth-card p{
+    font-size: 1.3rem;
+}
+.fourth .container .fourth-wrap .fourth-card p a{
+    text-decoration: none;
+    color:gray;
+    margin-left: 2px;
+}
+.fourth .container .fourth-wrap .fourth-card p a:hover{
+    color:lightsteelblue;
+}
+.fourth .container h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 4.5rem;
+    padding-top: 3rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    color:rgb(104, 103, 103);
+}
+.fourth .container >p{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 13%; 
+    padding-bottom: 3rem;
+}
+section.image1 img{
+    width:100%;
+}
+.fifth{
+    background:#e9e7e7 ;
+}
+.fifth .container{
+    display:flex;
+    text-align:center;
+}
+.fifth .container div {
+    padding:2rem
+}
+.fifth .container div h2{
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color:rgb(104, 103, 103);
+    margin-top: 2rem;
+}
+.fifth .container div h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.fifth .container div p{
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+}
+.fifth .container div a{
+    text-decoration:none ;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 4.5rem;
+    color:black;
+    text-transform: uppercase;
+}
+section.sixth .sixth-wrap{
+    width:100%;
+    background:#e9e7e7 ;
+}
+section.sixth .sixth-wrap div{
+    width:33%;
+    display: inline-flex;
+    padding:none;
+    border:none;
+    margin:none;
+}
+section.sixth .sixth-wrap div img{
+    width:100%;
+    padding:none;
+    border:none;
+    margin:none;
+}
+footer{
+    background: black;
+    color: white;
+}
+footer .container  svg{
+    fill:white;
+    width:2rem;
+    height:2rem;
+    margin-bottom: 1rem;
+    margin-right: 8px;
+}
+footer .container .footer-wrap{
+    display:flex;
+    margin-bottom: 2rem;
+}
+footer .container .footer-wrap div{
+    width:50%;
+}
+footer .container .footer-wrap div h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:darkgrey;
+    font-size:2.5rem;
+    font-weight: 400;
+}
+footer .container .footer-wrap div:first-child p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+footer .container .footer-wrap div .name{
+    width:100%;
+    padding:8px;
+    margin-bottom: 2rem;
+    outline:none;
+}
+footer .container .footer-wrap div .email{
+    width:100%;
+    padding:8px;
+    margin-bottom: 2rem;
+    outline:none;
+}
+footer .container .footer-wrap div .msg{
+    width:100%;
+    padding:8px;
+    margin-bottom: 2rem;
+    outline:none;
+    height:6rem
+}
+footer .container .footer-wrap div button{
+    color:black;
+    background:white;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    padding:8px 1rem;
+
+}
+footer .container .footer-wrap div button:hover{
+    background:grey;
+}
+footer .container>div:last-child{
+    text-align: center;
+    padding-top:3rem;
+    padding-bottom: 1rem;
+}
+section.last{
+    color:white;
+    background:rgb(71, 71, 71);
+    text-align: center;
+    padding:1rem;
+}
+@media (max-width:992px){
+    section.first .first-wrapper .first-card h1{
+        font-size: 56px;
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        color:rgb(104, 103, 103);
+    }
+    section.first .first-wrapper .first-card p{
+        font-size: 1rem;
+        font-weight: 400;
+        color:rgb(61, 60, 60);
+        margin-bottom:1.5rem;
+    }
+    section.first .first-wrapper .first-card button{
+        padding:8px;
+
+    }
+    .third .third-wrap{
+        flex-direction: column;
+    }
+    .third .third-wrap>div{
+        width:100%;
+    }
+    .third .third-wrap>div img{
+        height:600px
+    }
+    .second h1{
+        font-size: 56px;}
+        .fourth .container .fourth-wrap .fourth-card{
+            width:47%;
+        }
+}
+@media(max-width:768px){
+    .first-wrapper{
+        flex-direction: column;
+    }
+    section.first .first-wrapper > div{
+        width:100%;
+    }
+    section.first .first-wrapper > div img{
+        height:400px;
+    }
+    .fourth .container .fourth-wrap .fourth-card{
+        width:95%;
+    }
+    section.fifth .container{
+        flex-direction: column;
+    }
+    section.fifth .container>div{
+        width:100%;
+    }
+    section.fifth .container>div h2{
+        margin-bottom: 0;
+    }
+    section.sixth .sixth-wrap div{
+        width:100%;
+        display: block;
+    }
+    footer .footer-wrap{
+        flex-direction: column;
+    }
+    footer .container .footer-wrap div{
+        width:100%;
+    }
+    .fourth .container h2{
+        font-size:56px
+    }
+    .fourth .container p{
+        font-size:1.1rem
+    }
+    section.first .first-wrapper .first-card h2{
+        font-size: 1.2rem;
+        
+    }
+    .fourth .container .fourth-wrap .fourth-card p{
+        font-size: 1.1rem;
+    }
+}
